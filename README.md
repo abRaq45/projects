@@ -1,2 +1,2 @@
 # projects
-hi, i will some new and unique projects in here 
+1. first project is of "best time to buy and sell stocks" using greedy algorithm. 
