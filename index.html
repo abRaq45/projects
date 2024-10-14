@@ -12,11 +12,15 @@
     <form id="stockForm">
         <label for="prices">Enter stock prices (comma-separated):</label>
         <input type="text" id="prices" placeholder="e.g., 7,1,5,3,6,4">
-        <button type="submit">Analyze</button>
+        <div class="button-container">
+            <button type="submit">Analyze</button>
+            <button id="complexityButton" type="button">Analyze Time Complexity</button>
+        </div>
     </form>
     <canvas id="stockCanvas" width="800" height="400"></canvas>
     <p id="result"></p>
-
+    <p id="complexityResult"></p>
+    
     <script src="script.js"></script>
 </body>
 </html>
